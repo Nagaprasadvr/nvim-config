@@ -11,6 +11,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
+vim.opt.guifont = "Hack Nerd Font Mono:h12:b"
+
 local lazy_config = require "configs.lazy"
 
 -- load plugins
